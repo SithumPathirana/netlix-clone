@@ -1,0 +1,31 @@
+.nav{
+   position: fixed;
+   top: 0;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding-top: 20px;
+   height: 70px;
+   /* How the transtion will proceed */
+   transition-timing-function: ease-in;
+   /* For all trasitions add a 0.5 seconds gap */
+   transition: all 0.5s;
+}
+
+.nav_black{
+  background: #111;
+}
+
+.nav_logo{
+    position: fixed;
+    left: 20px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.user{
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    object-fit: contain;
+}

@@ -1,0 +1,42 @@
+.row{
+    margin-left: 20px;
+    color: white;
+}
+
+.row-images{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row-image{
+    object-fit: contain; /* Keep the  aspect ractio as it is */
+    width: 100%;
+    max-height: 100px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+
+.row-image-large{   
+    max-height: 250px;
+}
+
+.row-image-large:hover{
+    transform: scale(1.09);
+}
+
+.row-image:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.row-images::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+
